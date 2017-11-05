@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Getting started",
+  "description": "This extension tracks the next chapter available for light novels",
+  "version": "1.1",
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "history"
+  ]
+}
